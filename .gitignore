@@ -1,0 +1,32 @@
+# Ignore environment variables
+.env
+
+# Ignore PDFs
+*.pdf
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Byte-compiled / optimized / DLL files
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# macOS junk
+.DS_Store
