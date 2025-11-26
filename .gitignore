@@ -11,7 +11,7 @@ __pycache__/
 
 # Virtual environment
 venv/
-env/
+.env
 
 # IDE files
 .vscode/
@@ -30,3 +30,7 @@ dist/
 
 # macOS junk
 .DS_Store
+
+node_modules
+*.pyc
+.git

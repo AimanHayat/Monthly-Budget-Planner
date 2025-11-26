@@ -5,6 +5,7 @@ from pydantic import BaseModel
 from groq import Groq
 import os,json, re
 from fastapi.responses import FileResponse
+from dotenv import load_dotenv
 
 app = FastAPI(
     title="Monthly Budger Planner",
@@ -13,6 +14,7 @@ app = FastAPI(
     "email": "aiman@iciltek.com",
     }  
 )
+load_dotenv()
 
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
