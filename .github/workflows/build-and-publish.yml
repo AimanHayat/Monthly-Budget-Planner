@@ -35,5 +35,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/${{ github.repository_owner }}/budget-voice-app:latest
+          tags: ghcr.io/aimanhayat/budget-voice-app:latest
           file: ./Dockerfile
